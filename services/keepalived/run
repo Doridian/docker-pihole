@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv bash
+exec /usr/sbin/keepalived -l -G -f /etc/pihole/keepalived.conf --dont-fork
