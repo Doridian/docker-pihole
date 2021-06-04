@@ -1,2 +1,2 @@
 #!/usr/bin/with-contenv bash
-exec s6-setuidgid nobody /usr/bin/stubby -C /etc/pihole/stubby.yml
+exec s6-setuidgid stubby /usr/bin/stubby -C /etc/pihole/stubby.yml
